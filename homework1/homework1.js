@@ -1,8 +1,6 @@
 /*
-Write at least 2 classes and make 3 interactions between them
-
-Movies -> 
-Cinema -> has movie list and their tickest
+Write at least 2 classes and make interactions between them
+Movie -> has viewers/customers
 Customer -> goes to movie
 */
 
