@@ -23,10 +23,11 @@ snur.buyTicket(recep_ivedik)
 kaank = new Customer("KaanK")
 kaank.buyTicket(recep_ivedik)
 
-console.log("\nJSON Operations\n")
+/* JSON Operations */
 
 movies = [recep_ivedik, avatar, me_before_you] 
 customers = [kevs, snur, kaank]
+
 
 DB.saveData("./homework2/database/Movies.json", movies)
 DB.saveData("./homework2/database/Customers.json", customers)
