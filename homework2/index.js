@@ -28,8 +28,8 @@ console.log("\nJSON Operations\n")
 movies = [recep_ivedik, avatar, me_before_you] 
 customers = [kevs, snur, kaank]
 
-DB.saveData("./week2/homework2/database/Movies.json", movies)
-DB.saveData("./week2/homework2/database/Customers.json", customers)
+DB.saveData("./homework2/database/Movies.json", movies)
+DB.saveData("./homework2/database/Customers.json", customers)
 
-arr = DB.readData("./week2/homework2/database/Movies.json")
+arr = DB.readData("./homework2/database/Movies.json")
 console.log(arr[0].title)
