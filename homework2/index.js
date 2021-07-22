@@ -1,14 +1,11 @@
 /*
-Sperate classes into modules
-Require them in index
-Install npm package and use (chalk)
-Create json files and save datas into them
+Separate classes into modules
+Create json files and save data into them
+Read data from json files
 */
 const Movie = require("./modules/movie")
 const Customer = require("./modules/customer")
 const DB = require("./database/database")
-
-
 
 me_before_you = new Movie("Me Before You", "Romantic - Drama")
 recep_ivedik = new Movie("Recep İvedik", "Comedy")
