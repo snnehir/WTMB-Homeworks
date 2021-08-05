@@ -11,7 +11,7 @@ class Customer{
     showAllTickets(){
         this.cust_movies.forEach(printMovie)
     }
-    static create(obj){ // {name, id}
+    static create(obj){ // same {name, id}
         return new Customer(obj.name, obj.id)
     }
 }

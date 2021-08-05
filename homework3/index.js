@@ -34,4 +34,4 @@ async function main(){
     console.log(person)
 }
 
-main()
+main() // run
