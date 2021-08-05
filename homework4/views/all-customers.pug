@@ -1,0 +1,5 @@
+extends layout
+block content
+    h1 Total customers: #{people.length}
+    each person in people
+        p #{person.name} id: #{person.id}

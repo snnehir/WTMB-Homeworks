@@ -1,0 +1,25 @@
+{
+  "name": "jscc2019_homeworks",
+  "version": "1.0.0",
+  "description": "This repository consists of given homeworks in JSCC2019 course: https://www.youtube.com/playlist?list=PL9pDl_Oth4cqVnLrf5DCK4a_HhoAEhV4a",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snnehir/JSCC2019_Homeworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snnehir/JSCC2019_Homeworks/issues"
+  },
+  "homepage": "https://github.com/snnehir/JSCC2019_Homeworks#readme"
+}
