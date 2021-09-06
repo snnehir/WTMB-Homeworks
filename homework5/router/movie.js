@@ -12,18 +12,18 @@ router.get('/:id', async (req, res)=>{
   res.render("item", {item: movie})
 
 })
-
+// show movies with certain category
 router.get('/categories/:category', async (req, res) => {
   movies = await MovieService.find_by_category(req.params.category) 
   res.render("list", {list: movies, list_name: req.params.category})
 })
-// adding a customer
+// adding movie
 router.post("/", async (req, res)=>{
   const newMovie = await MovieService.add(req.body)
   console.log("Success adding ", newMovie)
 })
 
-// deleting a customer
+// deleting movie
 router.delete("/:id", async(req, res) => {
   await MovieService.del(req.params.id)
   console.log("Success delete. ")
