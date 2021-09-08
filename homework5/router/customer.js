@@ -27,7 +27,6 @@ router.delete("/:id", async(req, res) => {
 })
 
 // buying ticket
-
 router.post("/:id", async(req, res)=>{
   const movie = await MovieService.find_by_id(req.body.movie_id)
   const customer = await CustomerService.find_by_id(req.params.id)
