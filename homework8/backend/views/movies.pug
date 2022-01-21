@@ -1,0 +1,6 @@
+extends layout
+
+block content 
+    h1 #{items.name}'s movies 
+    each item in items.movies
+      p #{item.name} #{item._id}
